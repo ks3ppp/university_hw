@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<UserOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.UserOraclev10g" name="SYSTEM" directorySegmentName="seg_0" id="1956899B-8E5D-F66B-AA2D-116B3D392EC9">
+<sourceConnName>test</sourceConnName>
+<sourceObjName>SYSTEM</sourceObjName>
+<createdBy>chanjin</createdBy>
+<createdTime>2020-11-24 15:11:41 UTC</createdTime>
+<ownerDesignName>university</ownerDesignName>
+<schemaObject>E59F5CA9-8007-C1B6-EF56-2C7A2C1B8D98</schemaObject>
+</UserOraclev10g>

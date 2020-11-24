@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DD3F61CC-10B9-F9BC-57BB-9AE282A2722C" schemaObject="E59F5CA9-8007-C1B6-EF56-2C7A2C1B8D98" name="ADVISOR">
+<sourceConnName>test</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>ADVISOR</sourceObjName>
+<createdBy>chanjin</createdBy>
+<createdTime>2020-11-24 15:11:43 UTC</createdTime>
+<ownerDesignName>university</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="S_ID" id="3B1DE36B-367E-5D5C-C8CB-009C9F450C8D">
+<sourceConnName>test</sourceConnName>
+<sourceObjSchema>ADVISOR</sourceObjSchema>
+<sourceObjName>S_ID</sourceObjName>
+<createdBy>chanjin</createdBy>
+<createdTime>2020-11-24 15:11:43 UTC</createdTime>
+<ownerDesignName>university</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 BYTE</dataTypeSize>
+<ownDataTypeParameters>5 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5A94DBD5-12EC-723F-7491-D121665C231B" referredColumn="48BE8BC3-2A28-D57C-218D-5CAE82A71039"/>
+</associations>
+</Column>
+<Column name="I_ID" id="676EFB20-31DC-5F3D-382D-EBA5B57C75D7">
+<sourceConnName>test</sourceConnName>
+<sourceObjSchema>ADVISOR</sourceObjSchema>
+<sourceObjName>I_ID</sourceObjName>
+<createdBy>chanjin</createdBy>
+<createdTime>2020-11-24 15:11:43 UTC</createdTime>
+<ownerDesignName>university</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 BYTE</dataTypeSize>
+<ownDataTypeParameters>5 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7E3CE286-8765-B616-E11B-20353D4E0A77" referredColumn="1B57F7D1-BB59-CF9E-2628-AA77D759723E"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F7D2904A-02A4-7450-F8FC-6A8F97F677D7" schemaObject="E59F5CA9-8007-C1B6-EF56-2C7A2C1B8D98" name="ADVISOR_PK">
+<sourceConnName>test</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>SYS_C007315</sourceObjName>
+<createdBy>chanjin</createdBy>
+<createdTime>2020-11-24 15:11:43 UTC</createdTime>
+<ownerDesignName>university</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3B1DE36B-367E-5D5C-C8CB-009C9F450C8D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EF07B78C-492A-4438-D074-8E3C2711D963" name="SYS_C007316">
+<createdBy>chanjin</createdBy>
+<createdTime>2020-11-24 15:11:44 UTC</createdTime>
+<ownerDesignName>university</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="676EFB20-31DC-5F3D-382D-EBA5B57C75D7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EAB3346F-A3A6-8308-C9B1-96C3CFADAEF9" name="SYS_C007317">
+<createdBy>chanjin</createdBy>
+<createdTime>2020-11-24 15:11:44 UTC</createdTime>
+<ownerDesignName>university</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3B1DE36B-367E-5D5C-C8CB-009C9F450C8D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

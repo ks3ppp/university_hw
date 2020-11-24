@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="SECTION" directorySegmentName="seg_0" id="617634EA-6AD5-B977-7DF2-68B3AC7573F2">
+<createdBy>chanjin</createdBy>
+<createdTime>2020-11-24 15:11:43 UTC</createdTime>
+<ownerDesignName>university</ownerDesignName>
+<schemaObject>E59F5CA9-8007-C1B6-EF56-2C7A2C1B8D98</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>AA44CDD6-9059-0CEE-F148-06022328639D</segment>
+<tableSpace>A1892B84-6BB9-37F6-B15E-7A8730DE15E4</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="YEAR" id="09C026CD-0C86-4B48-9AC4-C38B197026D4">
+<createdBy>chanjin</createdBy>
+<createdTime>2020-11-24 15:11:43 UTC</createdTime>
+<ownerDesignName>university</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SEC_ID" id="29E030EB-B076-515D-E300-6A139F882350">
+<createdBy>chanjin</createdBy>
+<createdTime>2020-11-24 15:11:43 UTC</createdTime>
+<ownerDesignName>university</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SEMESTER" id="3E5F15A2-1BD1-CB56-E3FF-05D7C7C40D7B">
+<createdBy>chanjin</createdBy>
+<createdTime>2020-11-24 15:11:43 UTC</createdTime>
+<ownerDesignName>university</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COURSE_ID" id="593EAD78-3016-DF46-6AA2-D652F9A7C371">
+<createdBy>chanjin</createdBy>
+<createdTime>2020-11-24 15:11:43 UTC</createdTime>
+<ownerDesignName>university</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TIME_SLOT_ID" id="6CA51D1F-C9ED-9DF6-22FB-A820F60D16CE">
+<createdBy>chanjin</createdBy>
+<createdTime>2020-11-24 15:11:43 UTC</createdTime>
+<ownerDesignName>university</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BUILDING" id="9D58BF40-C6FE-BE34-DC6E-DC2D66110859">
+<createdBy>chanjin</createdBy>
+<createdTime>2020-11-24 15:11:43 UTC</createdTime>
+<ownerDesignName>university</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ROOM_NO" id="B93DC0B5-1EA7-3BDE-B883-9F9D858CAE15">
+<createdBy>chanjin</createdBy>
+<createdTime>2020-11-24 15:11:43 UTC</createdTime>
+<ownerDesignName>university</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C007334" id="1E37F27C-3602-3E0A-DC66-4057749E51A2">
+<createdBy>chanjin</createdBy>
+<createdTime>2020-11-24 15:11:44 UTC</createdTime>
+<ownerDesignName>university</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="SYS_C007335" id="66F5EFF6-7F5E-7B3E-4296-C65E925BB1D2">
+<createdBy>chanjin</createdBy>
+<createdTime>2020-11-24 15:11:44 UTC</createdTime>
+<ownerDesignName>university</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="SECTION_PK" id="B5F79B3A-D5BE-9BC8-C43C-2E6A54E4D1D6">
+<createdBy>chanjin</createdBy>
+<createdTime>2020-11-24 15:11:44 UTC</createdTime>
+<ownerDesignName>university</ownerDesignName>
+<schemaObject>E59F5CA9-8007-C1B6-EF56-2C7A2C1B8D98</schemaObject>
+<segment>74D32620-6201-3DCC-1516-1EBB4BCC2E76</segment>
+<tableSpace>A1892B84-6BB9-37F6-B15E-7A8730DE15E4</tableSpace>
+<indexSegment>74D32620-6201-3DCC-1516-1EBB4BCC2E76</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

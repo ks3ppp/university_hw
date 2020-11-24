@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9AB4B586-2E49-91F8-8EBD-73FECBD66B6A" schemaObject="E59F5CA9-8007-C1B6-EF56-2C7A2C1B8D98" name="INSTRUCTOR">
+<sourceConnName>test</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>INSTRUCTOR</sourceObjName>
+<createdBy>chanjin</createdBy>
+<createdTime>2020-11-24 15:11:43 UTC</createdTime>
+<ownerDesignName>university</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="1B57F7D1-BB59-CF9E-2628-AA77D759723E">
+<sourceConnName>test</sourceConnName>
+<sourceObjSchema>INSTRUCTOR</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>chanjin</createdBy>
+<createdTime>2020-11-24 15:11:43 UTC</createdTime>
+<ownerDesignName>university</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 BYTE</dataTypeSize>
+<ownDataTypeParameters>5 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAME" id="D8E9A2C3-7A2E-AAF4-B89F-C9F25FC1BE07">
+<sourceConnName>test</sourceConnName>
+<sourceObjSchema>INSTRUCTOR</sourceObjSchema>
+<sourceObjName>NAME</sourceObjName>
+<createdBy>chanjin</createdBy>
+<createdTime>2020-11-24 15:11:43 UTC</createdTime>
+<ownerDesignName>university</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEPT_NAME" id="7F034E8A-A77C-04CF-402C-553F20EB8A9E">
+<sourceConnName>test</sourceConnName>
+<sourceObjSchema>INSTRUCTOR</sourceObjSchema>
+<sourceObjName>DEPT_NAME</sourceObjName>
+<createdBy>chanjin</createdBy>
+<createdTime>2020-11-24 15:11:43 UTC</createdTime>
+<ownerDesignName>university</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EEDF06C1-407A-049A-AF8F-CD97F3C9BEB5" referredColumn="DE844CB3-E141-CE23-EBD6-0BE5D3E04245"/>
+</associations>
+</Column>
+<Column name="SALARY" id="3786E2A3-D5D8-1BAB-5FA4-502E5F71CF01">
+<sourceConnName>test</sourceConnName>
+<sourceObjSchema>INSTRUCTOR</sourceObjSchema>
+<sourceObjName>SALARY</sourceObjName>
+<createdBy>chanjin</createdBy>
+<createdTime>2020-11-24 15:11:43 UTC</createdTime>
+<ownerDesignName>university</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,8,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1318101C-EE67-C7E2-384C-A1C43663EB31" schemaObject="E59F5CA9-8007-C1B6-EF56-2C7A2C1B8D98" name="INSTRUCTOR_PK">
+<sourceConnName>test</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>SYS_C007308</sourceObjName>
+<createdBy>chanjin</createdBy>
+<createdTime>2020-11-24 15:11:44 UTC</createdTime>
+<ownerDesignName>university</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1B57F7D1-BB59-CF9E-2628-AA77D759723E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="30202B87-38B6-77E0-FA40-7A163248C395" name="SYS_C007309">
+<createdBy>chanjin</createdBy>
+<createdTime>2020-11-24 15:11:44 UTC</createdTime>
+<ownerDesignName>university</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7F034E8A-A77C-04CF-402C-553F20EB8A9E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

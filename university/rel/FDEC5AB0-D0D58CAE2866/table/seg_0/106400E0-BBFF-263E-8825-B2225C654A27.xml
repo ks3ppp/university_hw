@@ -1,0 +1,159 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="106400E0-BBFF-263E-8825-B2225C654A27" schemaObject="E59F5CA9-8007-C1B6-EF56-2C7A2C1B8D98" name="TAKES">
+<sourceConnName>test</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>TAKES</sourceObjName>
+<createdBy>chanjin</createdBy>
+<createdTime>2020-11-24 15:11:43 UTC</createdTime>
+<ownerDesignName>university</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="792DDB16-7DE3-F2E1-072B-0EE5016CB25B">
+<sourceConnName>test</sourceConnName>
+<sourceObjSchema>TAKES</sourceObjSchema>
+<sourceObjName>ID</sourceObjName>
+<createdBy>chanjin</createdBy>
+<createdTime>2020-11-24 15:11:43 UTC</createdTime>
+<ownerDesignName>university</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 BYTE</dataTypeSize>
+<ownDataTypeParameters>5 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BC82C82A-BA20-8FCA-45A5-15AC8E2985E7" referredColumn="48BE8BC3-2A28-D57C-218D-5CAE82A71039"/>
+</associations>
+</Column>
+<Column name="COURSE_ID" id="7467A6A8-BBF9-C6D7-B881-104045FF6876">
+<sourceConnName>test</sourceConnName>
+<sourceObjSchema>TAKES</sourceObjSchema>
+<sourceObjName>COURSE_ID</sourceObjName>
+<createdBy>chanjin</createdBy>
+<createdTime>2020-11-24 15:11:43 UTC</createdTime>
+<ownerDesignName>university</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>7 BYTE</dataTypeSize>
+<ownDataTypeParameters>7 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DB4429AE-9A2C-D492-CD23-D1E2E7F20348" referredColumn="593EAD78-3016-DF46-6AA2-D652F9A7C371"/>
+</associations>
+</Column>
+<Column name="SEC_ID" id="3EF48F6B-B60A-1E3F-B8D4-74144B96E505">
+<sourceConnName>test</sourceConnName>
+<sourceObjSchema>TAKES</sourceObjSchema>
+<sourceObjName>SEC_ID</sourceObjName>
+<createdBy>chanjin</createdBy>
+<createdTime>2020-11-24 15:11:43 UTC</createdTime>
+<ownerDesignName>university</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8 BYTE</dataTypeSize>
+<ownDataTypeParameters>8 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DB4429AE-9A2C-D492-CD23-D1E2E7F20348" referredColumn="29E030EB-B076-515D-E300-6A139F882350"/>
+</associations>
+</Column>
+<Column name="SEMESTER" id="C58B2F29-948E-D0F5-2C72-CFFA2D946FF0">
+<sourceConnName>test</sourceConnName>
+<sourceObjSchema>TAKES</sourceObjSchema>
+<sourceObjName>SEMESTER</sourceObjName>
+<createdBy>chanjin</createdBy>
+<createdTime>2020-11-24 15:11:43 UTC</createdTime>
+<ownerDesignName>university</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6 BYTE</dataTypeSize>
+<ownDataTypeParameters>6 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DB4429AE-9A2C-D492-CD23-D1E2E7F20348" referredColumn="3E5F15A2-1BD1-CB56-E3FF-05D7C7C40D7B"/>
+</associations>
+</Column>
+<Column name="YEAR" id="B3AF43A3-E93B-BF8F-AFD6-F39B7A7D9E31">
+<sourceConnName>test</sourceConnName>
+<sourceObjSchema>TAKES</sourceObjSchema>
+<sourceObjName>YEAR</sourceObjName>
+<createdBy>chanjin</createdBy>
+<createdTime>2020-11-24 15:11:43 UTC</createdTime>
+<ownerDesignName>university</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,4,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DB4429AE-9A2C-D492-CD23-D1E2E7F20348" referredColumn="09C026CD-0C86-4B48-9AC4-C38B197026D4"/>
+</associations>
+</Column>
+<Column name="GRADE" id="231E726C-1853-1B8D-7B3C-CB99EF88FD41">
+<sourceConnName>test</sourceConnName>
+<sourceObjSchema>TAKES</sourceObjSchema>
+<sourceObjName>GRADE</sourceObjName>
+<createdBy>chanjin</createdBy>
+<createdTime>2020-11-24 15:11:43 UTC</createdTime>
+<ownerDesignName>university</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,1,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C99D02E7-B6F7-42BF-A31E-8EBCBD70AEB2" schemaObject="E59F5CA9-8007-C1B6-EF56-2C7A2C1B8D98" name="TAKES_PK">
+<sourceConnName>test</sourceConnName>
+<sourceObjSchema>SYSTEM</sourceObjSchema>
+<sourceObjName>SYS_C007341</sourceObjName>
+<createdBy>chanjin</createdBy>
+<createdTime>2020-11-24 15:11:44 UTC</createdTime>
+<ownerDesignName>university</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="792DDB16-7DE3-F2E1-072B-0EE5016CB25B"/>
+<colUsage columnID="7467A6A8-BBF9-C6D7-B881-104045FF6876"/>
+<colUsage columnID="3EF48F6B-B60A-1E3F-B8D4-74144B96E505"/>
+<colUsage columnID="C58B2F29-948E-D0F5-2C72-CFFA2D946FF0"/>
+<colUsage columnID="B3AF43A3-E93B-BF8F-AFD6-F39B7A7D9E31"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="11035F56-B057-2C8D-A9D9-6359C16B749F" name="SYS_C007342">
+<createdBy>chanjin</createdBy>
+<createdTime>2020-11-24 15:11:44 UTC</createdTime>
+<ownerDesignName>university</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7467A6A8-BBF9-C6D7-B881-104045FF6876"/>
+<colUsage columnID="3EF48F6B-B60A-1E3F-B8D4-74144B96E505"/>
+<colUsage columnID="C58B2F29-948E-D0F5-2C72-CFFA2D946FF0"/>
+<colUsage columnID="B3AF43A3-E93B-BF8F-AFD6-F39B7A7D9E31"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1F45B167-E724-AFDB-B276-01D9C2CC259B" name="SYS_C007343">
+<createdBy>chanjin</createdBy>
+<createdTime>2020-11-24 15:11:44 UTC</createdTime>
+<ownerDesignName>university</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="792DDB16-7DE3-F2E1-072B-0EE5016CB25B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
